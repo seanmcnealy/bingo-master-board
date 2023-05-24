@@ -335,15 +335,15 @@ function typeOfBingo(num) {
 
 function typeOfBingoLetter(num) {
   if (num <= 15){
-    return "B";
-  } else if (num <= 30) {
-    return "I";
-  } else if (num <= 45) {
-    return "N";
-  } else if (num <= 60) {
-    return "G";
-  } else {
     return "O";
+  } else if (num <= 30) {
+    return "M";
+  } else if (num <= 45) {
+    return "S";
+  } else if (num <= 60) {
+    return "E";
+  } else {
+    return "F";
   }
 }
 
