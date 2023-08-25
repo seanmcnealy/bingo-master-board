@@ -339,7 +339,7 @@ function typeOfBingoLetter(num) {
   } else if (num <= 30) {
     return "D";
   } else if (num <= 45) {
-    return "LN";
+    return "L";
   } else if (num <= 60) {
     return "E";
   } else {
